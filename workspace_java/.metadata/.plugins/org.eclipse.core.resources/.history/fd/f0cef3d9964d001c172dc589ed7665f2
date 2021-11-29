@@ -1,0 +1,13 @@
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("¾ÆÀÌ"+"Æ¼Àª");
+		System.out.println(1+1);
+		System.out.println("1"+"1");
+		
+		
+	}	
+	
+}

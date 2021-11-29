@@ -1,0 +1,22 @@
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+		/*
+		 * 변수 (Variable)
+		 * - 자바에서 사용되는 데이터를 저장하는 메모리 공간
+		 * - 한 번에 하나의 데이터만 저장 가능
+		 *   => 언제든 다른 데이터로 대체될 수 있다. (변할 수 있다.)
+		 * - 변수를 사용하기 위해서는 변수 선언이 먼저 선행 되어야함.
+		 * - 변수에 데이터를 저장하는 것을 변수 초기화 하고함.
+		 * 
+		 * */
+		
+		int a;
+		a = 1;
+		System.out.println(a+1);
+		a = 2;
+		System.out.println(a+1);
+	}
+
+}

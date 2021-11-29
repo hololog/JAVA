@@ -1,0 +1,19 @@
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * 주석(Comment) 
+		 * */
+		
+		
+		
+//		System.out.println('아');
+//		System.out.println('아이티윌');
+//		System.out.println("아");
+//		System.out.println("아이티윌");
+		
+	}
+
+}

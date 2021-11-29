@@ -1,0 +1,19 @@
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+		/*
+		 * 변수 (Variable)
+		 * - 자바에서 사용되는 데이터를 저장하는 메모리 공간
+		 * - 한 번에 하나의 데이터만 저장 가능
+		 * 
+		 * */
+		
+		int a;
+		a = 1;
+		System.out.println(a+1);
+		a = 2;
+		System.out.println(a+1);
+	}
+
+}
