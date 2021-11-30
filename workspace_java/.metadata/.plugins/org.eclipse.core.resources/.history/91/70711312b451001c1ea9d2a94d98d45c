@@ -1,0 +1,16 @@
+package operator;
+
+public class Ex5 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * 비교연산자(=관계연산자) (>, >=, <=, <, ==, !=)
+		 * - 두 피연산자 간의 대소관계 등을 비교하여 true 또는 false 값 반환 
+		 * */
+		
+		int a=10, b=5;
+		
+	}
+
+}

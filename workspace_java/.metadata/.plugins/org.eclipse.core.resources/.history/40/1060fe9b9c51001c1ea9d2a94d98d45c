@@ -1,0 +1,22 @@
+package review;
+
+public class Ex1 {
+	public static void main(String[] args) {
+		
+		// 문자와 문자열
+		System.out.println("아이"+"티윌");
+		System.out.println(1+1);
+		System.out.println("1"+"1");
+		
+		
+		System.out.println("선생님이 말했다 \"아! 자바 재밋다!\"");
+		
+		
+		
+		
+		
+	}
+}
+
+
+

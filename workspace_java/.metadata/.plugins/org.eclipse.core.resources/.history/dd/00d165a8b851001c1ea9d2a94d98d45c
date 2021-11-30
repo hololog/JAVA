@@ -1,0 +1,18 @@
+package operator;
+
+public class Ex7 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * 삼항 연산자 (조건연산자)
+		 * - 연산에 참여하는 항이 3개인 연산자
+		 * - 특정 조건에 따라 다른 값을 실행하는 연산자
+		 *   => if ~ else 문과 동일한 기능을 수행
+		 * - 2가지 경우의 수 (true 또는 false)에 대한 결과를 수행
+		 * 
+		 * */
+		
+	}
+
+}

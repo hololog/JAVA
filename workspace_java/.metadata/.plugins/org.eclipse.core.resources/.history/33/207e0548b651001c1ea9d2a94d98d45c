@@ -1,0 +1,20 @@
+package operator;
+
+public class Ex6 {
+
+	public static void main(String[] args) {
+		
+		/* (& Ampersend) (| Vertical bar) (^ Caret)
+		 * 논리연산자 (&&, ||, !, ^) 
+		 * - 두 피연산자 간의 논리적인 판별을 수행하는 연산자
+		 * - 피연산자는 모두 boolean 타입 데이터만 사용 가능하여,
+		 *   결과값도 boolean 타입으로 리턴
+		 * 
+		 * < AND 연산자 (& 또는 &&) - 논리곱 >
+		 * 
+		 * 
+		 * */
+		
+	}
+
+}

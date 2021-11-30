@@ -1,0 +1,17 @@
+package operator;
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * 산술 연산시 자동 형변환
+		 * - 산술 연산 전에 데이터 타입이 다르면
+		 *   산술 연산을 수행하기 전 피연산자끼리의 데이터타입을 "일치" 시킨후에 연산 수행
+		 * 
+		 * 
+		 * */
+		
+	}
+
+}

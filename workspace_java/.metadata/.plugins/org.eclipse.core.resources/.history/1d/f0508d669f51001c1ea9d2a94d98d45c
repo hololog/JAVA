@@ -1,0 +1,26 @@
+package review;
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		
+		/*			1byte	2byte	4byte	8byte
+		 * -------------------------------------
+		 * 정수형		byte	short	int		long
+		 * 실수형	 					float	double
+		 * 문자형				char										
+		 * 논리형		boolean
+		 * 
+		 * */
+		
+		byte b = 127;
+		short s = 128;
+		int i = 2147483647;
+		long l = 2147483648;
+		
+		
+		
+		
+	}
+
+}
