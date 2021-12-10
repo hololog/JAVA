@@ -1,0 +1,12 @@
+package array;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		/*
+		 * 학생 5명의 점수를 배열 score에 저장하고
+		 * 각 학생 점수의 총점과 평균을 계산하여 출력
+		 * */
+	}
+
+}

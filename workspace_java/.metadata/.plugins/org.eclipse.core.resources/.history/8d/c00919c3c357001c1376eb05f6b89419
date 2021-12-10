@@ -1,0 +1,13 @@
+package for_statement;
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		/*
+		 * 반복문을 사용한 연산의 누적
+		 * */
+		
+		
+	}
+
+}

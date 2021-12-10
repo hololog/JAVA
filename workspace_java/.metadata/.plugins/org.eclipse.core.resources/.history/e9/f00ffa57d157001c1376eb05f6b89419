@@ -1,0 +1,14 @@
+package for_statement;
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+		/*
+		 * 중첩 for문
+		 * 
+		 * */
+		
+		
+	}
+
+}

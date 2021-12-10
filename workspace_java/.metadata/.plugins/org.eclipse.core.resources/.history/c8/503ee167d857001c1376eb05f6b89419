@@ -1,0 +1,11 @@
+package for_statement;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+
+		// 정수 n을 입력받아 n층의 별 계단을 출력
+		
+	}
+
+}

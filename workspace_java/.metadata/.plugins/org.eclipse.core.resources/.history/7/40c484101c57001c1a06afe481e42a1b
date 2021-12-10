@@ -1,0 +1,11 @@
+package review;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+		// if / switch~case
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package switch_case;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * switch문 (switch ~ case문)
+		 * - if문과 유사하게 조건에 따른 실행 문장을 달리하는 조건문
+		 * - if문과 달리 조건식이 정수값, 문자열, Enum 상수 중 하나의 결과가 와야함
+		 * 
+		 * 
+		 * 
+		 * */
+		
+	}
+
+}

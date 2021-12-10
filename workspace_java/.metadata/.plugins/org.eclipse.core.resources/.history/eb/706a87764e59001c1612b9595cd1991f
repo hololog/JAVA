@@ -1,0 +1,14 @@
+package break_continue;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * break & continue
+		 * 
+		 * */
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package for_statement;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * 구구단의 특정 단 출력
+		 * 
+		 * 
+		 * */
+		
+		
+	}
+
+}

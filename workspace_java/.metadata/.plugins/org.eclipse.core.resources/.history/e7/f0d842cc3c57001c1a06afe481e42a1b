@@ -1,0 +1,35 @@
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		
+		// 정수 2개가 입력되면 아래와 같이 출력
+		// 5 7
+		// "홀수 + 홀수 = 짝수"
+		// 2 7
+		// "짝수 + 홀수 = 홀수"
+		int n1=5, n2=7;
+		
+		if(n1%2 == 0) {
+			
+			if(n2%2 == 0) {
+				System.out.println("짝수 + 짝수 = 짝수");
+			} else {
+				System.out.println("짝수 + 홀수 = 홀수");
+			}
+			
+		} else {
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

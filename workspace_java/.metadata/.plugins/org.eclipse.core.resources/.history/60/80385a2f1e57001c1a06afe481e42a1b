@@ -1,0 +1,47 @@
+package review;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+		// if / switch~case
+		
+		// int 정수 2개가 있으면 아래와같이 출력
+		
+		// int n1=5, n2=7;
+		// 홀수 + 홀수 = 짝수
+		
+		// int n1=2, n2=5;
+		// 짝수 + 홀수 = 홀수
+		
+		int n1=5, n2=7;
+		
+		if(n1%2 == 0) {
+		
+			if(n2%2==0) {
+				System.out.println("짝수 + 짝수 = 짝수");
+				
+			} else {
+				System.out.println("짝수 + 홀수 = 홀수");
+				
+			}
+			
+			
+			
+		} else {
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package if_statement;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+
+		/*
+		 *	중첩 if문
+		 * 
+		 * */
+		
+		
+	}
+
+}
