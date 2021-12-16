@@ -33,16 +33,6 @@ public class Ex7 {
 		System.out.println(max);
 		System.out.println(min);
 		
-		String result5 = a > b ? "a가 더큼" : "a가 작음";
-		System.out.println(result5);
-		
-		if(a > b) {
-			System.out.println("a가 더큼");
-		} else {
-			System.out.println("a가 작음");
-		}
-		
-		
 		
 	}
 

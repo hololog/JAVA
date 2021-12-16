@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+		// 거스름돈 계산
+		// N이 32850일 경우,
+		// 50000원 : 0개
+		// 10000원 : 3개
+		// 5000원 : 0개
+		// 1000원 : 2개
+		// 500원 : 1개
+		// 100원 : 3개
+		// 50원 : 1개
+		// 10원 : 0개
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		
+		int[] money = {50000, 10000, 5000, 1000, 500, 100, 50, 10};
+		
+		for(int i = 0; i < money.length; i++) {
+			int cnt = N / money[i];
+			System.out.println(money[i] + "원 : " + cnt + "개");
+			N %= money[i];
+		}
+		
+	}
+	
+	public static int[] change(int[] money, int n) {
+		int[] cnts = new int[money.length];
+		return cnts;
+	}
+	
+	
+	
+	
+	
+
+}

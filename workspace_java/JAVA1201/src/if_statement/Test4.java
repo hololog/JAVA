@@ -71,8 +71,7 @@ public class Test4 {
 		int score = sc.nextInt();
 //		int score = 55;
 		String grade = "";
-		boolean b = 90 <= score && score <= 100;
-		if(b)								grade = "A학점";
+		if(90 <= score && score <= 100)		grade = "A학점";
 		else if(80 <= score)				grade = "B학점";
 		else if(70 <= score)				grade = "C학점";
 		else if(60 <= score)				grade = "D학점";

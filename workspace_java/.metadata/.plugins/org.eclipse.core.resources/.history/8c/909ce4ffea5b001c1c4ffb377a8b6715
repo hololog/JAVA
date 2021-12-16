@@ -1,0 +1,11 @@
+package method;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+		// 1. 매개변수도 없고, 리턴값도 없는 메서드 호출
+		
+	}
+
+}
