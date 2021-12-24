@@ -40,23 +40,13 @@ public class Test4 {
 		
 		// 다리(Bridge) 반복
 		for(int i=0; i<Bridge.length; i++) {
-			
-			// 북쪽(North) 합계
-			for(int j = 0; j <= Bridge[i]; j++) {
-				result[i] += North[j];
-			}
-			
-			// 남쪽(South) 합계
-			for(int j = Bridge[i]; j < South.length; j++) {
-				result[i] += South[j];
-			}
-			
+			result[i] = sum(North, South, Bridge[i]);
 		}
 		
 		int minIndex = 0;
-		int min = 9999999;
+		int min = result[0];
 
-		for(int i=0; i<result.length; i++) {
+		for(int i=1; i<result.length; i++) {
 			if(min > result[i]) {
 				min = result[i];
 				minIndex = i;
@@ -66,5 +56,20 @@ public class Test4 {
 		System.out.println("다리번호: " + Bridge[minIndex]);
 		System.out.println("최소시간: " + min);
 	}
+	
+	public static int sum(int[] North, int[] South, int Bridge) {
+		int sum = 0;
+		// 북쪽(North) 합계
+		for(int i = 0; i <= Bridge; i++) {
+			sum += North[i];
+		}
+		
+		// 남쪽(South) 합계
+		for(int i = Bridge; i < South.length; i++) {
+			sum += South[i];
+		}
+		return sum;
+	}
+	
 
 }
