@@ -1,0 +1,11 @@
+class ItwillBank extends Account {
+	
+	@Override
+	public int withdraw(int amount) {
+		balance -= amount;
+		System.out.println("출금할 금액 : " + amount + "원");
+		System.out.println("출금후 현재잔고 : " + balance + "원");
+		return amount;
+		
+	}	
+}
