@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class CustomerDAO {
+	public Vector select() {
+		Vector data = new Vector();
+		return data;
+	}
+	
+	public void insert() {
+		
+	}
+	
+	public void delete() {
+		
+	}
+}

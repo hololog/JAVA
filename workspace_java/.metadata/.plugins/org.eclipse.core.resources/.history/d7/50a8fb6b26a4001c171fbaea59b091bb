@@ -1,0 +1,87 @@
+import java.awt.*;
+
+import javax.swing.*;
+import javax.swing.border.*;
+
+public class CustomerGUI {
+
+	// North 영역
+	private JTextField sName, sAge, sJumin;
+	private JButton btnSelect;
+	
+	// Center 영역
+	private JTable table;
+	
+	// West 영역
+	private JTextField tfIdx, tfName, tfAge, tfEmail, tfJumin;
+	private JFrame f;
+	
+	// 생성자
+	public CustomerGUI() {
+		showFrame();
+	}
+	
+	public void showFrame() {
+		f = new JFrame("고객 관리 프로그램");
+		f.setBounds(500, 300, 900, 300);
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		
+		// ------------ North 영역 (조회조건) ----------------
+		JPanel pNorth = new JPanel();
+		f.add(pNorth, BorderLayout.NORTH);
+		pNorth.setBorder(new EtchedBorder(EtchedBorder.RAISED, null, null));
+		pNorth.setLayout(new GridLayout(0, 4, 0, 0));
+		
+		// 조회조건 sName 입력 패널
+		JPanel panelName = new JPanel();
+		pNorth.add(panelName);	// 부모패널(북쪽 큰패널) 부착
+		
+		panelName.add(new Label("NAME"));	// 레이블 부착
+		sName = new JTextField();
+		panelName.add(sName);	// TextField 부착
+		sName.setColumns(10);
+		
+		// 조회조건 sAge 입력 패널
+		JPanel panelAge = new JPanel();
+		pNorth.add(panelAge);	// 부모패널(북쪽 큰패널) 부착
+		
+		panelAge.add(new Label("AGE")); // 레이블 부착
+		sAge = new JTextField();
+		panelAge.add(sAge);	// TextField 부착
+		sAge.setColumns(10);
+		
+		// 조회조건 sJumin 패널
+		JPanel panelJumin = new JPanel();
+		pNorth.add(panelJumin);
+		
+		panelJumin.add(new JLabel("JUMIN"));
+		
+		sJumin = new JTextField();
+		panelJumin.add(sJumin);
+		sJumin.setColumns(10);
+		
+		btnSelect = new JButton("조회");
+		pNorth.add(btnSelect);
+		// ------------------------------------------------
+		
+		
+		// ------------- WEST 영역 (회원 정보 입력 영역) ----------------
+		JPanel pWest = new JPanel(new GridLayout(5, 0, 0, 0));
+		
+		
+		// --------------------------------------------------------
+		
+		
+		f.setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new CustomerGUI();
+	}
+
+}
+
+
+
+

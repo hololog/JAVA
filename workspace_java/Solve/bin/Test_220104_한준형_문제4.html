@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test_220104_한준형_문제4</title>
+<script type="text/javascript">
+	// 이 곳에 자바스크립트 함수 작성
+	function func1() {
+		alert("경고메세지");
+	}
+	function func2() {
+		alert(prompt());
+	}
+	
+	function func3() {
+		location.href="http://www.itwillbs.co.kr";
+	}
+	
+	function func4() {
+		window.open("http://www.itwillbs.co.kr");
+	}
+	
+	function func5() {
+		alert(document.getElementsByName("password")[0].value);
+	}
+	
+	
+	
+</script>
+</head>
+<body>
+	<input type="button" value="경고창 표시" onclick="func1()"><br>
+	<input type="button" value="이름 입력받기" onclick="func2()"><br>
+	<input type="button" value="아이티윌로 이동" onclick="func3()"><br>
+	<input type="button" value="새 창 열기" onclick="func4()"><br>
+	패스워드 : <input type="text" name="password"><input type="button" value="패스워드 확인" onclick="func5()"><br>
+</body>
+</html>

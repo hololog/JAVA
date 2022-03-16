@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class CustomerDAO {
+	public Vector select(Map<String, String> param) {
+		Vector data = new Vector();
+		return data;
+	}
+	
+	public boolean insert(CustomerDTO dto) {
+		return true;
+	}
+	
+	public boolean delete(int idx) {
+		return true;
+	}
+}

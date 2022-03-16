@@ -1,0 +1,26 @@
+import java.util.*;
+
+import org.apache.ibatis.session.*;
+
+import sql.*;
+
+public class CustomerDAO {
+	
+	private SqlSessionFactory sqlSessionFactory = SqlMapClient.getSqlSession();
+	
+	// 조회
+	public Vector select(Map<String, String> param) {
+		
+		
+		Vector data = new Vector();
+		return data;
+	}
+	
+	public boolean insert(CustomerDTO dto) {
+		return true;
+	}
+	
+	public boolean delete(int idx) {
+		return true;
+	}
+}
