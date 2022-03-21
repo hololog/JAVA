@@ -1,0 +1,67 @@
+< 안드로이드 설치 과정 >
+- next
+- Android Virtual Device 체크 해제 => next
+- 설치경로 설정 => next (단, 한글 경로 절대 안됨!!!)
+- 기본값으로 두고 install
+- 설치 완료 => next
+- Start Android Studio 체크 해제 => Finish
+
+-----------------------------------------------
+
+- 설치경로 -> bin -> studio64.exe 실행
+- Data Sharing 팝업 => Don't send 클릭
+- Setup Wizard 에서 next
+- Standard 체크 => next
+- Theme 하고싶은거 체크 => next
+- next
+- 모두 accept (Finish 버튼이 활성화 됨) => Finish
+- Windows 명렁 처리기 창 뜨면 "예" 클릭 (HXAM 설치됨)
+
+-----------------------------------------------
+
+- new Project 클릭
+- 'Empty Activity' 선택 => next
+- Language: Java, Mininum SDK: 8.0(Oreo) => Finish
+  (Windows 방화벽에서 이 앱의 일부 기능을 차단했습니다 => "예" 클릭)
+
+------------------setting---------------------
+- File -> Settings -> Appearance & behavior -> 
+  System Settings -> Updates : 모두 체크 해제 (Auto Update 체크 해제)
+- File -> Settings -> Appearance & behavior -> 
+  System Settings -> Android SDK : 11.0 (R) 체크
+	- Show Package Details 체크 => 11.0 (R) 하위에 Google APIs intel x86 Atom 	  System Image 체크
+	- SDK Tool 탭 클릭 => Google Play services 체크
+
+  => OK => [Confirm Change] 창이 뜨면 'OK' 클릭 => Finish
+
+- File -> Settings -> Editor -> General -> appearance : show line numbers 체크
+- File -> Settings -> Editor -> General -> Auto Import (import 자동으로 해줌)
+- File -> Settings -> Editor -> Font : Consolas, size
+- File -> Settings -> Appearance & Behavior -> Appearance : Theme 변경 가능
+- File -> Settings -> Keymap
+
+
+------------------ AVD(가상머신) 설치 ---------------------
+- Tools -> Device Manager : Create virtual device 클릭
+- Pixel 3 (5.46") 선택 => next => next => Finish
+
+
+------------------ AVD(가상머신) 설정 ---------------------
+- 단말기 아래에서 위로 드래그 -> Settings
+
+< 언어 변경 >
+- System -> Languages & Input -> Languages -> Add a language
+- 맨 밑으로 드래그 -> 한국어 선택 -> 대한민국 선택 -> 1번으로 위치 변경
+- 시스템 -> 언어 및 입력 -> 고급 확장 -> 맞춤법 검사기 -> 체크 해제
+
+< 디스플레이 변경 >
+- 디스플레이 -> 화면 자동 잠금 시간 -> 30분
+
+
+
+
+
+
+
+
+
